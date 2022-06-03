@@ -10,25 +10,25 @@ body {
     position: relative;
 }
 
-.bottom{
+.bottom {
     position: absolute;
     bottom: 0px;
     left: 0px;
 }
 
-.left{
+.left {
     position: absolute;
     left: 0px;
     top: 10px;
 }
 
-.music{
+.music {
     position: absolute;
     left: 5px;
     bottom: 70px;
 }
 
-.right{
+.right {
     position: absolute;
     right: 0px;
     top: 0px;
@@ -51,16 +51,16 @@ body {
     background-clip: text;
 }
 
-.content p{
-font-family: 'Poiret One', cursive;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 22px;
-color: #FFFFFF;
+.content p {
+    font-family: 'Poiret One', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
 }
 
-.sign{
+.sign {
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -69,20 +69,89 @@ color: #FFFFFF;
     position: relative;
 }
 
-.sign img{
+.sign img {
     position: absolute;
     padding-left: 280px;
 }
 
-.sign p{
-font-family: 'Poiret One', cursive;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 22px;
-color: #FFFFFF;
+.sign p {
+    font-family: 'Poiret One', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
 }
 
-.logo{
+.logo {
     margin-top: 40px;
 }
+
+
+/* width 576 */
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 577px) {
+    .bottom {
+        display: none;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .content {
+        width: 328px;
+        position: absolute;
+        top: 180px;
+        right: 122px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 0px;
+
+    }
+
+    .content>h1 {
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 52px;
+    }
+
+    .content>p {
+        height: 456px;
+        /* font-size: 16px; */
+        align-items: center;
+        text-align: center;
+        margin-top: 12px;
+    }
+
+    .left {
+        top: 30px;
+        width: 150px;
+    }
+
+    .sign {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 750px;
+        margin: 0px 200px;
+    }
+
+    .logo{
+        position: absolute;
+        top: 880px;
+        left: 220px;
+    }
+    
+    .music{
+        position: absolute;
+        left: 500px;
+        top: 70px;
+    }
+}   
