@@ -24,8 +24,8 @@ body {
 
 .music {
     position: absolute;
-    left: 5px;
-    bottom: 70px;
+    left: 14px;
+    bottom: 75px;
 }
 
 .right {
@@ -108,7 +108,7 @@ body {
         justify-content: center;
         text-align: center;
         align-items: center;
-        margin-bottom: 0px;
+        margin-bottom: 0;
 
     }
 
